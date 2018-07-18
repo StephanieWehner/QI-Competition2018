@@ -69,7 +69,7 @@ def main():
 		m0 = parity_meas([qb, qd], "XI", Bob)
 		m1 = parity_meas([qb, qd], "XZ", Bob, negative=True)
 		m2 = parity_meas([qb, qd], "IZ", Bob)
-        else:
+	else:
 		m0 = 0
 		m1 = 0
 		m2 = 0

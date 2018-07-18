@@ -68,7 +68,7 @@ def main():
 		m0 = parity_meas([qa, qc], "XI", Alice)
 		m1 = parity_meas([qa, qc], "XX", Alice)
 		m2 = parity_meas([qa, qc], "IX", Alice)
-        else:
+	else:
 		m0 = 0
 		m1 = 0
 		m2 = 0
