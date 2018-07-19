@@ -11,5 +11,5 @@ python "$NETSIM"/tests/auto/cqc/testCQCMessages.py
 
 #python "$NETSIM"/tests/auto/cqc/changebackend.py simulaqron
 echo "Starting SimulaQron server"
-sh "$NETSIM"/run/startAll.sh Alice Bob Charlie
+sh "$NETSIM"/run/startAll.sh Alice Bob Charlie David Eve
 echo "Started SimulaQron server"
